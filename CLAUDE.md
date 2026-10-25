@@ -138,3 +138,5 @@ Hoy el proyecto no usa git. Si se inicializa:
 
 - Mensajes en inglés, breves, con Conventional Commits, sin trailer `Co-Authored-By`.
 - Nunca crees tags, commits de release ni hagas push: eso lo hace el usuario.
+
+.
