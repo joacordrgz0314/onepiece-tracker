@@ -207,7 +207,7 @@ export default function App() {
       <header className="top">
         <div>
           <h1>🏴‍☠️ Grand Line Collectors</h1>
-          <p className="muted">Tu colección de One Piece Card Game.</p>
+          <p className="muted">Tu colección de One Piece Card Game</p>
         </div>
         <div className="top-actions">
           <div className="seg" title="Moneda de visualización">
