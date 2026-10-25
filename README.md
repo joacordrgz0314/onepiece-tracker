@@ -203,5 +203,4 @@ src/
   prices.js          consulta de precios
   styles.css
 ```
-
 .
