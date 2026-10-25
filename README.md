@@ -4,12 +4,12 @@ App en React + Vite para llevar tu colección de One Piece Card Game y el valor 
 
 ## Requisitos
 
-| Herramienta | Versión | Para qué |
-|---|---|---|
-| Node.js | 22.13 o superior. Recomendado **24 LTS** (probado con 24.16.0) | ejecuta las herramientas de desarrollo (Vite); pnpm 11 exige Node ≥ 22.13 |
-| pnpm | **11** (probado con 11.5.0) | instala las librerías del proyecto en `node_modules/`. `pnpm-workspace.yaml` usa `allowBuilds`, la regla de pnpm 11 que deja a esbuild (motor de Vite) ejecutar su instalación |
-| Navegador | Chrome o Edge 105+, Safari 16+, Firefox 110+ | la animación de inicio usa unidades de contenedor (`cqw`) |
-| Internet | — | catálogo, precios e imágenes vienen de optcgapi.com; la fuente de la intro, de Google Fonts |
+| Herramienta | Versión                                                        | Para qué                                                                                                                                                                       |
+| ----------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Node.js     | 22.13 o superior. Recomendado **24 LTS** (probado con 24.16.0) | ejecuta las herramientas de desarrollo (Vite); pnpm 11 exige Node ≥ 22.13                                                                                                      |
+| pnpm        | **11** (probado con 11.5.0)                                    | instala las librerías del proyecto en `node_modules/`. `pnpm-workspace.yaml` usa `allowBuilds`, la regla de pnpm 11 que deja a esbuild (motor de Vite) ejecutar su instalación |
+| Navegador   | Chrome o Edge 105+, Safari 16+, Firefox 110+                   | la animación de inicio usa unidades de contenedor (`cqw`)                                                                                                                      |
+| Internet    | —                                                              | catálogo, precios e imágenes vienen de optcgapi.com; la fuente de la intro, de Google Fonts                                                                                    |
 
 No hace falta backend, base de datos, variables de entorno ni claves de API.
 
@@ -120,11 +120,11 @@ Las próximas veces basta con abrir la terminal, entrar a la carpeta con `cd` y 
 
 ## Scripts
 
-| Comando | Qué hace |
-|---|---|
-| `pnpm dev` | servidor de desarrollo con recarga en caliente, en http://localhost:5173 |
-| `pnpm build` | genera la web estática en `dist/` |
-| `pnpm preview` | sirve `dist/` en http://localhost:4173 para probar el build |
+| Comando        | Qué hace                                                                 |
+| -------------- | ------------------------------------------------------------------------ |
+| `pnpm dev`     | servidor de desarrollo con recarga en caliente, en http://localhost:5173 |
+| `pnpm build`   | genera la web estática en `dist/`                                        |
+| `pnpm preview` | sirve `dist/` en http://localhost:4173 para probar el build              |
 
 No hay tests ni linter configurados.
 
@@ -203,3 +203,5 @@ src/
   prices.js          consulta de precios
   styles.css
 ```
+
+.
